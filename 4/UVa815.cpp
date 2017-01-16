@@ -22,8 +22,8 @@ int main() {
             }
         }
         printf("Region %d\n", ++T);
-        printf("Water level is %.2lf meters.\n", w / (i + 1));
-        printf("%.2lf percent of the region is under water.\n\n", 100.0 * (i + 1) / m);
+        printf("Water level is %.2f meters.\n", w / (i + 1));
+        printf("%.2f percent of the region is under water.\n\n", 100.0 * (i + 1) / m);
     }
     return 0;
 }
